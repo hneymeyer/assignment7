@@ -2,6 +2,7 @@
 //Dr. Litman
 //CSC 250
 
+//Sorting section by name
 public class sortOnnameBubble
 {
      public static void main(String[ ] args)
@@ -30,6 +31,8 @@ public class sortOnnameBubble
                                       x [ j+1] = temp;
                                       flag = true;
                                       
+				      
+				      //Sort by chapter
                                       int[] sortOnChapterCount = BibleBookChapter;
                                       int temp;
 
@@ -50,7 +53,7 @@ public class sortOnnameBubble
                                                                                              {
                                                       System.out.println(numbers[i].toString());
                                                       
-                                                      
+                                                      //display both the bubble sort for chapter and number
                                                       public void display(sortOnnameBubble) {
 	                                                    System.out.print(sortOnnameBubble + sortOnChapterCount);  
                            }
